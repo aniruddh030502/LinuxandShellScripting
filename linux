@@ -1,0 +1,14 @@
+ 1  ps -ef
+    2  ps -ef grep "bash"
+    3  ps -ef | grep "bash"
+    4  ls
+    5  history
+    6  cd Documents/
+    7  cd AD
+    8  ls
+    9  cat AD.odt 
+   10  cd ..
+   11  ping google.com
+   12  touch file1.txt
+   13  vi file1.txt 
+   14  history

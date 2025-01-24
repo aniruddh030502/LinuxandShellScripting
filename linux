@@ -55,4 +55,59 @@
    55  cp -uv ../file1.txt file1.txt 
    56  history
 
+ 1  rm -d folder2
+    2  ls
+    3  mkdir bb
+    4  rm -d bb
+    5  rm -rf bb
+    6  ls
+    7  mdir fold
+    8  mkdir fold
+    9  cd mkdir
+   10  touch file1.txt file2.txt file3.txt
+   11  cd ..
+   12  cd
+   13  cd ~
+   14  ls
+   15  mv file1.txt file2.txt file3.txt fold/
+   16  ls
+   17  ls fold
+   18  find . -name file1.txt
+   19  find . -name *.txt
+   20  find . -iname "FILE*.txt"
+   21  find . -iname "FILE*.txt" -type f
+   22  mkdir file9
+   23  find . -iname "FILE*.txt" -type f
+   24  find . -iname "FILE*.txt"
+   25  find . -iname "FILE" -type f
+   26  find . -iname "FILE*" -type f
+   27  find . -iname "FILE*"
+   28  find . -iname "FILE*" -type d
+   29  cd AD.odf
+   30  find . -name Downloads -mtime +7
+   31  find . -name Downloads -mtime -7
+   32  ls -ltr
+   33  find . -name Downloads -mtime -23
+   34  find . -name "*.*" -exec grep "ERROR"{} \;
+   35  find . -name "*.*" -exec grep "ERROR" {} \;
+   36  echo "a" >>data.txt
+   37  echo "e" >>data.txt
+   38  echo "f" >>data.txt
+   39  echo "d" >>data.txt
+   40  echo "c" >>data.txt
+   41  echo "b" >>data.txt
+   42  sort data.txt 
+   43  echo "a" >> data.txt 
+   44  sort -u data.txt 
+   45  sort data.txt 
+   46  sort -r data.txt 
+   47  sort -k 2 5 data.txt 
+   48  man sort
+   49  top
+   50  top | sort -k 2
+   51  ds -h|sort -k 2 -h
+   52  df -h|sort -k 2 -h
+   53  history
+
+
 

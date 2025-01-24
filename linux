@@ -12,3 +12,47 @@
    12  touch file1.txt
    13  vi file1.txt 
    14  history
+       cat file2.txt
+   16  cat >file2.txt
+   17  ls
+   18  cat file2.txt 
+   19  cat >>file2.txt
+   20  cat file2.txt 
+   21  cat file1.txt file2.txt  >> file3.txt
+   22  cat file3.txt 
+   23  ip ea
+   24  ip a
+   25  ssh user@172.21.230.167
+   26  ls
+   27  cp file2.txt file4.txt
+   28  cat file4.txt 
+   29  mkdir luckyday
+   30  cp file1.txt file3.txt luckday
+   31  cp file1.txt file3.txt luckyday
+   32  ls luckyday/
+   33  cp *.txt luckyday/
+   34  ls
+   35  ls luckyday/
+   36  cp -i *.txt luckyday/
+   37  cp -I *.txt luckyday/
+   38  cp -v *.txt luckyday/
+   39  man cp | grep version
+   40  man cp | grep --version
+   41  cp --version
+   42  cp luckyday/
+   43  cd luckyday/
+   44  ls -ltr
+   45  cp file1.txt 
+   46  cp -uv ../file1.txt file.txt 
+   47  cp -uv ../file1.txt file1.txt 
+   48  ls
+   49  cat file.txt
+   50  echo "in parent" >> ../file1.txt
+   51  cat ../file1.txt
+   52  echo "in son" >> file1.txt
+   53  cp -u -v ../file1.txt file1.txt 
+   54  cat file1.txt 
+   55  cp -uv ../file1.txt file1.txt 
+   56  history
+
+

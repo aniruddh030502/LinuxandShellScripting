@@ -1,0 +1,72 @@
+   17  ls fold
+   18  find . -name file1.txt
+   19  find . -name *.txt
+   20  find . -iname "FILE*.txt"
+   21  find . -iname "FILE*.txt" -type f
+   22  mkdir file9
+   23  find . -iname "FILE*.txt" -type f
+   24  find . -iname "FILE*.txt"
+   25  find . -iname "FILE" -type f
+   26  find . -iname "FILE*" -type f
+   27  find . -iname "FILE*"
+   28  find . -iname "FILE*" -type d
+   29  cd AD.odf
+   30  find . -name Downloads -mtime +7
+   31  find . -name Downloads -mtime -7
+   32  ls -ltr
+   33  find . -name Downloads -mtime -23
+   34  find . -name "*.*" -exec grep "ERROR"{} \;
+   35  find . -name "*.*" -exec grep "ERROR" {} \;
+   36  echo "a" >>data.txt
+   37  echo "e" >>data.txt
+   38  echo "f" >>data.txt
+   39  echo "d" >>data.txt
+   40  echo "c" >>data.txt
+   41  echo "b" >>data.txt
+   42  sort data.txt 
+   43  echo "a" >> data.txt 
+   44  sort -u data.txt 
+   45  sort data.txt 
+   46  sort -r data.txt 
+   47  sort -k 2 5 data.txt 
+   48  man sort
+   49  top
+   50  top | sort -k 2
+   51  ds -h|sort -k 2 -h
+   52  df -h|sort -k 2 -h
+   53  history
+   54  wget github.com
+   55  cd Desktop/
+   56  wget -O a.txt
+   57  wget -O a.txt github,com
+   58  wget -O a.txt github.com
+   59  cat a.txt 
+   60  curl -o b.txt github.com
+   61  apt
+   62  apt install curl
+   63  sudo apt install curl
+   64  curl -o b.txt github.com/anirudd030502/ustgit.com
+   65  curl -o b.txt github.com
+   66  curl -o b.txt google.com
+   67  cat b.txt
+   68  curl -o -l  b.txt github.com
+   69  curl -o -L  b.txt github.com
+   70  curl -O -L  b.txt github.com
+   71  uname -a
+   72  whoami
+   73  history
+   74  alias ll ='ls -latr'
+   75  alias ll='ls -latr'
+   76  ll
+   77  unalias ll
+   78  ll
+   79  ls
+   80  gzip b.txt
+   81  ls
+   82  unzip b.txt
+   83  unzip b.txt.gz
+   84  zip aa.zip a.txt
+   85  unzip aa.zip
+   86  ls
+   87  time
+   88  history
